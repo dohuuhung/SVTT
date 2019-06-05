@@ -24,6 +24,7 @@ Trong một số trường hợp, triển khai Openstack nằm trong môi trư�
 **Routed provider networks**
 
 Routed provider networks cung cấp kết nối ở layer 3 cho các máy ảo. Các network này map với những networks layer 3 đã tồn tại. Cụ thể hơn, các layer-2 segments của provider network sẽ được gán các router gateway giúp chúng có thể được định tuyến ra bên ngoài chứ thực chất Networking service không cung cấp khả năng định tuyến. Routed provider networks tất nhiên sẽ có hiệu suất thấp hơn so với provider networks.
+
 **Self-service networks**
 
 Self-service networks chủ yếu sử dụng ở các project chung để quản lý mạng mà không liên quan đến quản trị viên. Các networks này đều là ảo và yêu cầu routers ảo để giao tiếp với provider và external networks. Self-service networks cũng cung cấp dịch vụ DHCP và metadata services cho máy ảo.
