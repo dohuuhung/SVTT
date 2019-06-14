@@ -1,4 +1,4 @@
-# AngularJS
+# Angular 5
 
 ## 1. Giới thiệu
 Angular là 1 platform và framework dùng để xây dựng ứng dụng phía client bằng HTML và TypeScript. Angular được viết bằng ngôn ngữ TypeScript.
@@ -118,3 +118,6 @@ export class TimeService {
 ```
 <router-outlet></router-outlet>
 ```
+
+### Tham khảo
+https://angular.io/guide/cheatsheet
